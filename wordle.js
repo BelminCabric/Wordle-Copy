@@ -27,8 +27,6 @@ currentGuess = currentGuess.substring (0, currentGuess.length -1) + letter
   letters[ANSWER_LENGHT *currentRow + currentGuess.length-1].innerText = letter;
 }
 
-console.log(word); // REMOVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE //
-
 async function commit() {
   if (currentGuess.length !== ANSWER_LENGHT) {
   // nothing happens //
